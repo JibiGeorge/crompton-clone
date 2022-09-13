@@ -19,9 +19,9 @@
     background-color: #fff;
     margin: 0 25px;
 }
-.discover{
+.discover, .section2{
     margin: 30px 0;
-    padding: 0 50px;
+    padding: 0 2%;
 }
 .tab-name ul li{
     display: inline-block;
@@ -68,4 +68,17 @@
 }
 .tab-content .card{
     padding: 0;
+}
+.section2{
+    border-bottom: 1px solid rgb(214, 211, 211);
+    padding-bottom: 50px;
+}
+.section2 .column img{
+    width: 100%;
+    object-fit: cover;
+}
+@media (min-width: 576px) {
+    .section2 .column img{
+        margin-top: 20px;
+    }
 }
