@@ -82,3 +82,11 @@
         margin-top: 20px;
     }
 }
+@media (max-width: 576px) {
+    .bar hr{
+        display: none;
+    }
+    .navbar{
+        padding: 0;
+    }
+}
